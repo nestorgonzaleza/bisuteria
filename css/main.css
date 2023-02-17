@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encab {
+   
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    align-content: stretch;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+header h1 {
+    color: white;
+}
+
+.menu {
+    list-style-type: none;
+    
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 16px;
+    /*align-content: space-around;*/
+}
+
+.menu li {
+    
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+           
+}
+
+.logo {
+    width: 150px;
+    
+}
+
+.link {
+    
+    text-decoration: none;
+    color: white;
+    
+}
+
+.seccionIntro {
+    background-image: url(../img/insumos/mostacilla_carrete.jfif);
+    background-size: cover;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.seccionIntro h2 {
+    background-color: rgba(0, 0, 0, 0.408);
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.titulo__productos{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.indice__productos {
+
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.producto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 350px;
+    width: 369px;
+    padding: 40px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 20px;
+}
+
+.productoAros {
+    background-image: url(../img/aros/arosh500.jpg);  
+}
+
+.productoAnillos {   
+    background-image: url(../img/anillos/anillo1_1.jfif);
+}
+
+.productoCollares {
+    background-image: url(../img/collares/collar1_1.jfif);
+}
+
+.productoPulseras {  
+    background-image: url(../img/pulseras/pulsera1_1.jpg)  
+}
+
+.nombreProducto {
+    background-color: rgba(0, 0, 0, 0.408);
+    
+    color: white;
+    
+    padding: 16px;
+    border-radius: 20px;
+
+
+}
+
+.nombreProducto a {
+    text-decoration: none;
+    color: white;
+}
+
+.piePagina {
+    border-top: 1px solid white;
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    align-items: center;
+}
+
+.piePagina h1 {
+    padding: 16px;
+}
+
+.piePagina p {
+    padding: 16px;
+}
+
+.quienesSomos1 {
+    background-image: url(../img/insumos/mostacilla3.jfif);
+    background-size: cover;
+    height: 560px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: ". quienes2";
+    
+}
+
+.quienesSomos2 {
+    grid-area: quienes2;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px
+}
+
+.encab1 {
+    background-color: rgba(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    
+}
+
+.contacto1 {
+    background-image: url(../img/michicho_H.jfif);
+    background-size: cover;
+    height: 560px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "contact .";
+    
+}
+
+.contactoInfo {
+    grid-area: contact;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px
+}
+
+.catalogo {
+    height: 560px;
+    background-color: black;
+}
+
+.indice__aros {
+
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+    
+    
+}
+
+.aros1 {
+    background-image: url(../img/aros/aros1_2.jfif);
+}
+
+.aros2 {
+    background-image: url(../img/aros/aros2_1.jfif);
+}
+
+.aros5 {
+    background-image: url(../img/aros/aros5_1.jfif);
+}
+
+.aros6 {
+    background-image: url(../img/aros/aros6_1.jfif);
+}
+
+.anillo1 {
+    background-image: url(../img/anillos/anillo1_1.jfif);
+}
+
+.anillo2 {
+    background-image: url(../img/anillos/anillo2_1.jfif);
+}
+
+.anillo3 {
+    background-image: url(../img/anillos/anillo3_1.jfif);
+}
+
+.collar1 {
+    background-image: url(../img/collares/collar1_1.jfif);
+}
+
+.collar2 {
+    background-image: url(../img/collares/collar2_1.jfif);
+}
+
+.pulsera1 {
+    background-image: url(../img/pulseras/pulsera1.jfif);
+}
